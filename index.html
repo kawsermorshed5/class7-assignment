@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carasol link -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- custom link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="top-bar-bg">
+            <div class="container">
+                <!-- top header start -->
+                <div class="row">
+                    <div class="col-lg-6" id="top-left">
+                        <span class="orang-colour">Top destinations</span>
+                        <a href="">Asia</a>
+                        <a href="">Europe</a>
+                        <a href="">America</a>
+                    </div>
+                    <div class="col-lg-6 text-end" id="top-right">
+                        <div class="social-icon">
+                            <a href="">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-square-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-skype"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-solid fa-phone-volume text-danger ms-5"></i>
+                            </a>
+                            <span>+880 186 312 6870</span>
+                        </div>
+
+                    </div>
+                    <!-- top header end -->
+                </div>
+            </div>
+        </div>
+
+        <!-- second header bar start -->
+        <div class="header-nav-bar">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/menu-bar-logo.png" alt="" class="image-fluid">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Packages</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog
+                                        </a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled">Contact</a>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-primary nav-btn">Book Now</button>
+
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- second header bar end -->
+    </header>
+
+    <!-- banner section stard -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-box">
+                <div class="banner-text">
+                    <h1>Saintmartine</h1>
+                    <p>Let's start your journey with us, your dream will come true</p>
+                    <button>Discover Now</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- banner section end -->
+
+    <!-- Hotel-ticket-place start -->
+    <section class="hotel-ticket-place">
+        <div class="container">
+            <div class="h-t-p">
+                <div class="tab-menu">
+                    <ul>
+                        <li id="hotel">Hotel</li>
+                        <li id="ticket">Ticket</li>
+                        <li id="place">Place</li>
+                    </ul>
+                </div>
+                <div class="tab-item">
+                    <div class="hotel-item">
+                        <form action="">
+                            <select name="" id="" class="h-t-i-options">
+                                <option value="">Choose a place</option>
+                                <option value="">USA</option>
+                                <option value="">UK</option>
+                                <option value="">Denmark</option>
+                            </select>
+                            <div class="check-box">
+                                <div class="check-in-date ">
+                                    <input type="text" placeholder="Check in date">
+                                    <i class=" fa-solid fa-calendar-days"></i>
+                                </div>
+                                <div class="check-in-date">
+                                    <input type="text" placeholder="Check in date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                            </div>
+                            <select name="" id="" class="h-t-i-options">
+                                <option value="">Person</option>
+                                <option value="">One</option>
+                                <option value="">two</option>
+                                <option value="">Three</option>
+                            </select>
+                            <input type="submit" value="Search" class="nav-btn" id="h-t-p-submit-btn">
+                        </form>
+                    </div>
+                    <div class="ticket-item">
+                        <form action="">
+                            <select name="" id="" class="h-t-i-options">
+                                <option value="">Choose a place</option>
+                                <option value="">USA</option>
+                                <option value="">UK</option>
+                                <option value="">Denmark</option>
+                            </select>
+                            <div class="check-box">
+                                <div class="check-in-date ">
+                                    <input type="text" placeholder="Check in date">
+                                    <i class=" fa-solid fa-calendar-days"></i>
+                                </div>
+                                <div class="check-in-date">
+                                    <input type="text" placeholder="Check in date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                            </div>
+                            <select name="" id="" class="h-t-i-options">
+                                <option value="">Person</option>
+                                <option value="">One</option>
+                                <option value="">two</option>
+                                <option value="">Three</option>
+                            </select>
+                            <input type="submit" value="Search 2" class="nav-btn" id="h-t-p-submit-btn">
+                        </form>
+                    </div>
+                    <div class="place-item">
+                        <form action="">
+                            <select name="" id="" class="h-t-i-options">
+                                <option value="">Choose a place</option>
+                                <option value="">USA</option>
+                                <option value="">UK</option>
+                                <option value="">Denmark</option>
+                            </select>
+                            <div class="check-box">
+                                <div class="check-in-date ">
+                                    <input type="text" placeholder="Check in date">
+                                    <i class=" fa-solid fa-calendar-days"></i>
+                                </div>
+                                <div class="check-in-date">
+                                    <input type="text" placeholder="Check in date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                            </div>
+                            <select name="" id="" class="h-t-i-options">
+                                <option value="">Person</option>
+                                <option value="">One</option>
+                                <option value="">two</option>
+                                <option value="">Three</option>
+                            </select>
+                            <input type="submit" value="Search 3" class="nav-btn" id="h-t-p-submit-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hotel-ticket-place end -->
+
+    <!-- top place to visit start -->
+    <section class="top-place-visit">
+        <div class="container ">
+            <div class="row">
+                <div class="t-p-v-text-box">
+                    <h2>Top Places to visit</h2>
+                    <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales
+                        grass
+                        is fish whales winged.</p>
+                </div>
+            </div>
+
+            <!-- list-item start -->
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="list-item">
+                        <img src="img/t-p-v-img-1.png" alt="" class="image-fluid">
+                        <div class="list-content">
+                            <a href="">Travel</a>
+                            <h3>Saintmartine Iceland</h3>
+                            <p>Technaf, Bangladesh</p>
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(210 review)</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="list-item">
+                        <img src="img/t-p-v-img-2.png" alt="" class="image-fluid">
+                        <div class="list-content">
+                            <a href="">Travel</a>
+                            <h3>Saintmartine Iceland</h3>
+                            <p>Technaf, Bangladesh</p>
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(210 review)</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="list-item">
+                        <img src="img/t-p-v-img-3.png" alt="" class="image-fluid">
+                        <div class="list-content">
+                            <a href="">Travel</a>
+                            <h3>Saintmartine Iceland</h3>
+                            <p>Technaf, Bangladesh</p>
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(210 review)</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="list-item">
+                        <img src="img/t-p-v-img-4.png" alt="" class="image-fluid">
+                        <div class="list-content">
+                            <a href="">Travel</a>
+                            <h3>Saintmartine Iceland</h3>
+                            <p>Technaf, Bangladesh</p>
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(210 review)</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center"><button id="discover">Discover more</button></div>
+
+            <!-- list-item end -->
+
+    </section>
+    <!-- top place to visit end -->
+
+    <!-- maldeve-asia slider start -->
+    <section class="maldeve-asia">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6"></div>
+                        <div class="col-lg-6 d-flex align-items-center" id="height">
+                            <div class="maldeve-asia-text-box">
+
+                                <div class="event-slider">
+                                    <h5>Upcoming Event</h5>
+                                    <h2>Maldeve - Asia</h2>
+                                    <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air
+                                        very one.
+                                        Whales
+                                        grass is fish whales winged.
+                                    </p>
+                                    <p>date: <span>12 Aug 2019</span> </p>
+                                    <p>Cost: <span>Start from $820</span> </p>
+                                    <p>Organizer: <span> Martine Agency</span> </p>
+                                    <div class="rating">
+                                        <span>Rating:</span>
+                                        <div class="place-review">
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="plan-details">Plan Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6"></div>
+                        <div class="col-lg-6 d-flex align-items-center" id="height">
+                            <div class="maldeve-asia-text-box">
+
+                                <div class="event-slider">
+                                    <h5>Upcoming Event</h5>
+                                    <h2>Maldeve - Asia</h2>
+                                    <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air
+                                        very one.
+                                        Whales
+                                        grass is fish whales winged.
+                                    </p>
+                                    <p>date: <span>12 Aug 2019</span> </p>
+                                    <p>Cost: <span>Start from $820</span> </p>
+                                    <p>Organizer: <span> Martine Agency</span> </p>
+                                    <div class="rating">
+                                        <span>Rating:</span>
+                                        <div class="place-review">
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="plan-details">Plan Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6"></div>
+                        <div class="col-lg-6 d-flex align-items-center" id="height">
+                            <div class="maldeve-asia-text-box">
+
+                                <div class="event-slider">
+                                    <h5>Upcoming Event</h5>
+                                    <h2>Maldeve - Asia</h2>
+                                    <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air
+                                        very one.
+                                        Whales
+                                        grass is fish whales winged.
+                                    </p>
+                                    <p>date: <span>12 Aug 2019</span> </p>
+                                    <p>Cost: <span>Start from $820</span> </p>
+                                    <p>Organizer: <span> Martine Agency</span> </p>
+                                    <div class="rating">
+                                        <span>Rating:</span>
+                                        <div class="place-review">
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                            <a href="#"><i class="fas fa-star"></i></a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="plan-details">Plan Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- maldeve-asia slider end -->
+
+
+    <!-- Top Hotel & Restaurants start -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="t-p-v-text-box">
+                    <h2>Top Hotel & Restaurants</h2>
+                    <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales
+                        grass is fish whales winged.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Hotel & Restaurants end -->
+
+
+    <!-- hotel polonia start -->
+    <section>
+        <div class="container">
+            <div class="item-box">
+                <div class="row">
+                    <div class="col-lg-4 d-inline gap-3" id="hotel-plonia">
+                        <img src="img/hotel-polonia-1.png" alt="" class="image-fluid">
+                        <h3> <a href=""> Hotel Polonia</a></h3>
+                        <div class="hotel-polonia-place-review">
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <span>(210 review)</span>
+                        </div>
+                        <p>London, United Kingdom</p>
+                        <h5>From <span>$500</span></h5>
+                        <div class="line">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-inline" id="hotel-plonia">
+                        <img src="img/hotel-polonia-2.png" alt="" class="image-fluid">
+                        <h3> <a href=""> Hotel Polonia</a></h3>
+                        <div class="hotel-polonia-place-review">
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <span>(210 review)</span>
+                        </div>
+                        <p>London, United Kingdom</p>
+                        <h5>From <span>$500</span></h5>
+                        <div class="line">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-inline" id="hotel-plonia">
+                        <img src="img/hotel-polonia-3.png" alt="" class="image-fluid">
+                        <h3> <a href=""> Hotel Polonia</a></h3>
+                        <div class="hotel-polonia-place-review">
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <a href=""><i class="fas fa-star"></i></a>
+                            <span>(210 review)</span>
+                        </div>
+                        <p>London, United Kingdom</p>
+                        <h5>From <span>$500</span></h5>
+                        <div class="line">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- hotel polonia end -->
+
+    <!-- what the y said start -->
+    <section class="what-they-said">
+        <div class="container">
+
+            <div class="slide-box">
+                <h2>What they said</h2>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="allen-miller">
+                                    <div class="hotel-polonia-place-review">
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+
+                                    </div>
+                                    <p>
+                                        Waters make fish every without firmament saw had. Morning air subdue. Our Air
+                                        very one
+                                        whales grass is fish whales winged night yielding land creeping that seed
+                                    </p>
+                                    <h5> - Allen Miller</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="allen-miller">
+                                    <div class="hotel-polonia-place-review">
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+
+                                    </div>
+                                    <p>
+                                        Waters make fish every without firmament saw had. Morning air subdue. Our Air
+                                        very one
+                                        whales grass is fish whales winged night yielding land creeping that seed
+                                    </p>
+                                    <h5> - Allen Miller</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="allen-miller">
+                                    <div class="hotel-polonia-place-review">
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+
+                                    </div>
+                                    <p>
+                                        Waters make fish every without firmament saw had. Morning air subdue. Our Air
+                                        very one
+                                        whales grass is fish whales winged night yielding land creeping that seed
+                                    </p>
+                                    <h5> - Allen Miller</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="allen-miller">
+                                    <div class="hotel-polonia-place-review">
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+
+                                    </div>
+                                    <p>
+                                        Waters make fish every without firmament saw had. Morning air subdue. Our Air
+                                        very one
+                                        whales grass is fish whales winged night yielding land creeping that seed
+                                    </p>
+                                    <h5> - Allen Miller</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="allen-miller">
+                                    <div class="hotel-polonia-place-review">
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+
+                                    </div>
+                                    <p>
+                                        Waters make fish every without firmament saw had. Morning air subdue. Our Air
+                                        very one
+                                        whales grass is fish whales winged night yielding land creeping that seed
+                                    </p>
+                                    <h5> - Allen Miller</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="allen-miller">
+                                    <div class="hotel-polonia-place-review">
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+
+                                    </div>
+                                    <p>
+                                        Waters make fish every without firmament saw had. Morning air subdue. Our Air
+                                        very one
+                                        whales grass is fish whales winged night yielding land creeping that seed
+                                    </p>
+                                    <h5> - Allen Miller</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- what the y said end -->
+
+    <!-- we offered start -->
+    <section class="we-offerd">
+        <div class="container">
+            <div class="row">
+                <div class="t-p-v-text-box">
+                    <h2>We offered best services</h2>
+                    <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales
+                        grass is fish whales winged.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- we offered end -->
+
+    <!-- transportation-g-a-d start -->
+    <section class="t-g-a-d">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="t-g-a-d-box">
+                        <img src="img/t-g-a-d-img-1.png" alt="" class="img-fluid">
+                        <a href="">Transportation</a>
+                        <p>All transportation cost we bear</p>
+                    </div>
+                </div>
+                <div class="col-lg-3" id="">
+                    <div class="t-g-a-d-box">
+                        <img src="img/t-g-a-d-img-2.png" alt="" class="img-fluid">
+                        <a href="">Transportation</a>
+                        <p>All transportation cost we bear</p>
+                    </div>
+                </div>
+                <div class="col-lg-3" id="">
+                    <div class="t-g-a-d-box">
+                        <img src="img/t-g-a-d-img-3.png" alt="" class="img-fluid">
+                        <a href="">Transportation</a>
+                        <p>All transportation cost we bear</p>
+                    </div>
+                </div>
+                <div class="col-lg-3" id="">
+                    <div class="t-g-a-d-box">
+                        <img src="img/t-g-a-d-img-4.png" alt="" class="img-fluid">
+                        <a href="">Transportation</a>
+                        <p>All transportation cost we bear</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- transportation-g-a-d end -->
+
+
+    <!-- page summery start -->
+    <section class="summery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5" id="dicover">
+                    <h4 id="heading">Discover destination</h4>
+
+                    <div class="discover-text ">
+                        <ul>
+
+                            <li><a href="#">Miami, USA</a></li>
+                            <li><a href="#">California, USA</a></li>
+                            <li><a href="#">London, UK</a></li>
+                            <li><a href="#">Saintmartine, Bangladesh</a></li>
+                            <li><a href="#">Mount Everast, India</a></li>
+                            <li><a href="#">Sidney, Australia</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="discover-text-1">
+                        <ul>
+
+                            <li><a href="#">Miami, USA</a></li>
+                            <li><a href="#">California, USA</a></li>
+                            <li><a href="#">London, UK</a></li>
+                            <li><a href="#">Saintmartine, Bangladesh</a></li>
+                            <li><a href="#">Mount Everast, India</a></li>
+                            <li><a href="#">Sidney, Australia</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <h4 id="heading">Discover destination</h4>
+                    <div class="input-icon">
+                        <input type="email" value="Your email address">
+                        <a href="">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+                        <p>Subscribe our newsletter to get update news and offers</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3" id="contact-us">
+                    <h4 id="heading">CONTACT US</h4>
+                    <p>4156, New garden, New York, USA +880 362 352 783</p>
+                    <span> contact@martine.com</span>
+
+                    <div class="bottom-social-icon">
+                        <a href="" id="bottom-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="" id="bottom-icon">
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </a>
+                        <a href="" id="bottom-icon">
+                            <i class="fa-brands fa-skype"></i>
+                        </a>
+                        <a href="" id="bottom-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- page summery start -->
+
+
+
+    <!-- footer start -->
+    <footer>
+        <p>Copyright ©2022 All rights reserved | This template is made with by <span>Colorlib</span> </p>
+
+    </footer>
+    <!-- footer end -->
+
+    <br><br><br><br>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- jqury -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- carasol -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
