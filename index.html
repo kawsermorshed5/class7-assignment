@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Saintmartine</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
@@ -21,6 +21,8 @@
     <!-- owl carasol link -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- custom link -->
     <link rel="stylesheet" href="css/style.css">
@@ -90,19 +92,23 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Packages</a>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Blog
-                                        </a>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Pages
-                                        </a>
+                                    <li class="nav-item">
+                                        <a class="nav-link blog-menu" id="">Blog</a>
+
+                                        <!-- sub-menu -->
+                                        <ul class="sub-menu">
+                                            <li><a href="">item one</a></li>
+                                            <li><a href="">item two</a></li>
+                                            <li><a href="">item three</a></li>
+                                            <li><a href="">item four</a></li>
+                                        </ul>
+
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link disabled">Contact</a>
+                                        <a class="nav-link">Pages</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link">Contact</a>
                                     </li>
                                 </ul>
                                 <button type="button" class="btn btn-primary nav-btn">Book Now</button>
@@ -139,9 +145,15 @@
             <div class="h-t-p">
                 <div class="tab-menu">
                     <ul>
-                        <li id="hotel">Hotel</li>
-                        <li id="ticket">Ticket</li>
-                        <li id="place">Place</li>
+                        <li id="hotel">Hotel
+                            <span class="htp-line"></span>
+                        </li>
+                        <li id="ticket">Ticket
+                            <span class="htp-line"></span>
+                        </li>
+                        <li id="place">Place
+                            <span class="htp-line"></span>
+                        </li>
                     </ul>
                 </div>
                 <div class="tab-item">
@@ -236,12 +248,18 @@
     <section class="top-place-visit">
         <div class="container ">
             <div class="row">
-                <div class="t-p-v-text-box">
-                    <h2>Top Places to visit</h2>
-                    <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales
-                        grass
-                        is fish whales winged.</p>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <div class="t-p-v-text-box">
+
+                        <h2 class="animate__animated animate__bounce">Top Places to visit</h2>
+                        <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one.
+                            Whales
+                            grass
+                            is fish whales winged.</p>
+                    </div>
                 </div>
+                <div class="col-lg-3"></div>
             </div>
 
             <!-- list-item start -->
@@ -329,8 +347,8 @@
 
     <!-- maldeve-asia slider start -->
     <section class="maldeve-asia">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
+        <div class="owl-carousel owl-theme" id="slider-1">
+            <div class="item" id="item-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6"></div>
@@ -452,11 +470,18 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="t-p-v-text-box">
-                    <h2>Top Hotel & Restaurants</h2>
-                    <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales
-                        grass is fish whales winged.</p>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div class="t-p-v-text-box">
+                        <h2>Top Hotel & Restaurants</h2>
+                        <p class="me-5 ms-5 ">Waters make fish every without firmament saw had. Morning air subdue. Our.
+                            Air
+                            very one.
+                            Whales
+                            grass is fish whales winged.</p>
+                    </div>
                 </div>
+                <div class="col-lg-2"></div>
             </div>
         </div>
     </section>
@@ -470,6 +495,24 @@
                 <div class="row">
                     <div class="col-lg-4 d-inline gap-3" id="hotel-plonia">
                         <img src="img/hotel-polonia-1.png" alt="" class="image-fluid">
+                        <div class="social-icon-polonia">
+                            <span class="s-icons">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </span>
+                            <span class="share">
+                                <a href="">
+                                    <i class="fa-solid fa-share-from-square"></i>
+                                </a>
+                            </span>
+                        </div>
                         <h3> <a href=""> Hotel Polonia</a></h3>
                         <div class="hotel-polonia-place-review">
                             <a href=""><i class="fas fa-star"></i></a>
@@ -486,6 +529,24 @@
                     </div>
                     <div class="col-lg-4 d-inline" id="hotel-plonia">
                         <img src="img/hotel-polonia-2.png" alt="" class="image-fluid">
+                        <div class="social-icon-polonia">
+                            <span class="s-icons">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </span>
+                            <span class="share">
+                                <a href="">
+                                    <i class="fa-solid fa-share-from-square"></i>
+                                </a>
+                            </span>
+                        </div>
                         <h3> <a href=""> Hotel Polonia</a></h3>
                         <div class="hotel-polonia-place-review">
                             <a href=""><i class="fas fa-star"></i></a>
@@ -502,6 +563,24 @@
                     </div>
                     <div class="col-lg-4 d-inline" id="hotel-plonia">
                         <img src="img/hotel-polonia-3.png" alt="" class="image-fluid">
+                        <div class="social-icon-polonia">
+                            <span class="s-icons">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </span>
+                            <span class="share">
+                                <a href="">
+                                    <i class="fa-solid fa-share-from-square"></i>
+                                </a>
+                            </span>
+                        </div>
                         <h3> <a href=""> Hotel Polonia</a></h3>
                         <div class="hotel-polonia-place-review">
                             <a href=""><i class="fas fa-star"></i></a>
@@ -523,13 +602,13 @@
     </section>
     <!-- hotel polonia end -->
 
-    <!-- what the y said start -->
+    <!-- what they said start -->
     <section class="what-they-said">
         <div class="container">
 
             <div class="slide-box">
                 <h2>What they said</h2>
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel owl-theme" id="second-slide">
                     <div class="item">
                         <div class="row">
                             <div class="col-lg-4">
@@ -656,17 +735,24 @@
 
         </div>
     </section>
-    <!-- what the y said end -->
+    <!-- what they said end -->
 
     <!-- we offered start -->
     <section class="we-offerd">
         <div class="container">
+
             <div class="row">
-                <div class="t-p-v-text-box">
-                    <h2>We offered best services</h2>
-                    <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales
-                        grass is fish whales winged.</p>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div class="t-p-v-text-box">
+                        <h2>We offered best services</h2>
+                        <p class="me-5 ms-5 ">Waters make fish every without firmament saw had. Morning air subdue. Our.
+                            Air very one.
+                            Whales
+                            grass is fish whales winged.</p>
+                    </div>
                 </div>
+                <div class="col-lg-2"></div>
             </div>
         </div>
     </section>
@@ -717,8 +803,8 @@
                 <div class="col-lg-5" id="dicover">
                     <h4 id="heading">Discover destination</h4>
 
-                    <div class="discover-text ">
-                        <ul>
+                    <div class="discover-list">
+                        <ul class="list">
 
                             <li><a href="#">Miami, USA</a></li>
                             <li><a href="#">California, USA</a></li>
@@ -726,12 +812,6 @@
                             <li><a href="#">Saintmartine, Bangladesh</a></li>
                             <li><a href="#">Mount Everast, India</a></li>
                             <li><a href="#">Sidney, Australia</a></li>
-
-                        </ul>
-                    </div>
-                    <div class="discover-text-1">
-                        <ul>
-
                             <li><a href="#">Miami, USA</a></li>
                             <li><a href="#">California, USA</a></li>
                             <li><a href="#">London, UK</a></li>
@@ -740,6 +820,17 @@
                             <li><a href="#">Sidney, Australia</a></li>
                         </ul>
                     </div>
+                    <!-- <div class="discover-text-1">
+                        <ul>
+
+                            <li><a href="#">Miami, USA</a></li>
+                            <li><a href="#">California, USA</a></li>
+                            <li><a href="#">London, UK</a></li>
+                            <li><a href="#">Saintmartine, Bangladesh</a></li>
+                            <li><a href="#">Mount Everast, India</a></li>
+                            <li><a href="#">Sidney, Australia</a></li>
+                        </ul>
+                    </div> -->
                 </div>
 
 
@@ -791,7 +882,7 @@
     </footer>
     <!-- footer end -->
 
-    <br><br><br><br>
+    <!-- <br><br><br><br> -->
 
 
 
@@ -807,12 +898,13 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script>
-        $('.owl-carousel').owlCarousel({
+        $('#second-slide').owlCarousel({
             loop: true,
             margin: 10,
             nav: true,
             autoplay: true,
-            autoplayTimeout: 3000,
+            autoplayTimeout: 2000,
+            smartSpeed: 1000,
             autoplayHoverPause: false,
             responsive: {
                 0: {
@@ -829,10 +921,14 @@
     </script>
 
     <script>
-        $('.owl-carousel').owlCarousel({
+        $('#slider-1').owlCarousel({
             loop: true,
             margin: 10,
             nav: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            smartSpeed: 1500,
+            autoplayHoverPause: false,
             responsive: {
                 0: {
                     items: 1
