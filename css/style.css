@@ -87,6 +87,127 @@ body {
     display: inline;
 }
 
+/* sub menu */
+
+/* nav {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background: #37bc9b;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 20px 0 0;
+    float: left;
+    display: inline-block;
+}
+
+li>a:after {
+    content: ' »';
+}
+
+/* Change this in order to change the Dropdown symbol */
+
+/* li>a:only-child:after {
+    content: '';
+}
+
+nav ul li a {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    opacity: 0.5;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    background: #37bc9b;
+    float: left;
+}
+
+nav ul li ul li {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+nav ul li:hover ul {
+    display: block;
+} */
+
+.nav-item {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.sub-menu {
+    background-color: rgb(29, 145, 118) !important;
+    position: absolute;
+    border-radius: 5px;
+    padding: 0px !important;
+    margin: 0px;
+    width: 200px;
+    text-align: left;
+    width: 168px;
+    left: -46px;
+    opacity: 0;
+    transition: 0.5s;
+    transform: scale(1, 0);
+    transform-origin: top;
+
+}
+
+
+.nav-item:hover .sub-menu {
+    opacity: 1;
+    transition: 0.5s;
+    transform: scale(1);
+
+
+}
+
+.sub-menu li {
+
+    position: relative;
+    color: white !important;
+    padding: 0 30px !important;
+    text-align: left;
+
+
+}
+
+.sub-menu li a {
+    line-height: 35px;
+    color: white !important;
+    padding: 5px 0;
+    top: -10px;
+    left: 0px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.sub-menu li:hover {
+    background-color: #16232c !important;
+    transition: 0.3s;
+    width: 100%;
+}
+
 /* second header bar end */
 
 /* top header end */
@@ -141,38 +262,55 @@ body {
 /* <!-- banner section end --> */
 
 
+
 /*    <!-- Hotel-ticket-place start --> */
 .h-t-p {
     background-color: white;
     margin-top: -80px;
+
 }
 
 .tab-menu ul li {
     display: inline-block;
     color: #0c3e72;
     /* border-color: transparent; */
-    border-bottom: 2px solid #0c3e72;
+    /* border-bottom: 2px solid #0c3e72; */
     text-transform: capitalize;
-    padding: 28.5px 20px;
+    padding: 28.5px 25px;
+    cursor: pointer;
+    position: relative;
 }
 
 .h-t-i-options {
     color: #2493e0;
     border: 1.5px solid #2493e0;
     font-size: 14px;
-    padding: 12px 15px;
+    padding: 12px 10px;
     width: 20%;
-    margin-right: 11px;
-    margin-top: 30px;
+    margin-right: 3px;
+    margin-left: 7px;
+
+    margin-top: 40px;
     background-color: #fff;
 }
 
 .hotel-item form select {}
 
-.hotel-item form {
-
-    padding: 40px 15px;
+.hotel-item form,
+.ticket-item,
+.place-item {
+    position: relative;
+    padding: 0px 7px 32px;
     box-shadow: 0 10px 40px 0 rgba(146, 141, 141, 0.3);
+}
+
+.htp-line {
+    bottom: 0;
+    left: 5%;
+    position: absolute;
+    height: 2px;
+    background-color: #1a5f91;
+    width: 95%;
 }
 
 .h-t-p-submit-btn:hover {
@@ -182,12 +320,13 @@ body {
 
 .tab-item {
     /* position: relative; */
+    /* padding-bottom: 20px; */
 }
 
 .check-box {
     position: relative;
     display: inline-block;
-    top: 2px;
+    top: 1px;
 }
 
 .check-in-date {
@@ -197,7 +336,8 @@ body {
     border: 1.5px solid #2493e0;
 
     padding: 10px;
-    margin-right: 12px;
+    margin-right: 2px;
+    margin-left: 5px;
 
 }
 
@@ -236,7 +376,7 @@ body {
 /* <!-- top place to visit start --> */
 .t-p-v-text-box {
     text-align: center;
-    margin: 100px;
+    margin: 100px 0;
 }
 
 .t-p-v-text-box h2 {
@@ -252,7 +392,6 @@ body {
     font-weight: 400;
     line-height: 28px;
     font-size: 16px;
-    padding: 0px 274px;
 }
 
 /* <!-- list-item start --> */
@@ -344,6 +483,7 @@ body {
     transition: 0.5s;
     background-color: #fe5c24;
     font-weight: 500;
+    border: none;
 }
 
 #discover:focus {
@@ -379,6 +519,7 @@ body {
 
 #height {
     height: 100vh;
+    transition: 0.5s;
 }
 
 .event-slider h5 {
@@ -440,45 +581,51 @@ body {
     display: none !important;
 }
 
-.owl-prev {
-    display: flex;
-    align-items: center !important;
+/* .owl-carousel .animated #slider-1 {
+    animation-duration: 5000ms;
+    animation-fill-mode: both;
+} */
+
+/* #slider-1 #item-1 {
+    animation: fadeInRightBig ease 2s;
+} */
+
+#slider-1 .owl-prev {
     text-align: center;
-    padding-bottom: 30px !important;
     position: absolute;
-    color: red !important;
-    font-size: 50px !important;
+    color: rgba(16, 145, 231, 0.863) !important;
+    font-size: 60px !important;
     top: 50%;
     left: 150px;
     width: 100px;
     height: 100px;
+    line-height: 100px;
     border-radius: 100% !important;
-    background-color: rgba(153, 197, 71, 0.671) !important;
-
+    background-color: rgba(87, 97, 84, 0.671) !important;
 
 }
 
-.owl-next {
-    display: flex;
-    align-items: center !important;
+#slider-1 .owl-next {
+    animation: fade;
     text-align: center;
-    padding-bottom: 30px !important;
     position: absolute;
-    color: red !important;
-    font-size: 50px !important;
+    color: rgba(16, 145, 231, 0.863) !important;
+    font-size: 60px !important;
     top: 50%;
     right: 150px;
     width: 100px;
     height: 100px;
+    line-height: 100px;
     border-radius: 100% !important;
-    background-color: rgba(153, 197, 71, 0.671) !important;
+    background-color: rgba(87, 97, 84, 0.671) !important;
+
 
 }
 
 /* <!-- maldeve-asia slider end --> */
 
 
-
+/* <!-- hotel polonia start --> */
 #hotel-plonia h3 {
     margin-top: 35px;
     color: #0c3e72;
@@ -498,6 +645,68 @@ body {
     /* border-bottom: 1px solid rgb(158, 154, 154);
     /* margin-left: 20px; */
     /* padding-left: 20px; */
+    position: relative;
+}
+
+.social-icon-polonia {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+.social-icon-polonia a i {
+    display: block;
+    text-align: center;
+    border-radius: 100%;
+    background-color: rgba(248, 101, 47, 0.7);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin: 5px 0;
+    /* -webkit-transition: .5s;
+    transition: .5s; */
+}
+
+.fa-share-from-square {
+    background-color: rgba(212, 201, 201, 0.658) !important;
+    height: 50px !important;
+    width: 50px !important;
+    color: #fff !important;
+    line-height: 50px !important;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+
+
+.share {
+    display: block;
+    transform: scaleX(1);
+    transition: 0.5s;
+    /* cursor: pointer; */
+}
+
+.social-icon-polonia:hover .share {
+    transform: scaleX(0);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.s-icons {
+    display: inline-block;
+    transform: scaleY(0);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social-icon-polonia:hover .s-icons {
+    transform: scaleY(1);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .line {
@@ -523,8 +732,11 @@ body {
     color: #fe5c24;
 }
 
+/*  <!-- hotel polonia start --> */
 
-/* what the y said start */
+
+
+/* what they said start */
 .what-they-said {
     margin: 100px 0;
     background-color: #0c3e72;
@@ -533,6 +745,7 @@ body {
 
 .slide-box {
     padding: 130px 0px;
+    position: relative;
 }
 
 .slide-box h2 {
@@ -570,6 +783,54 @@ body {
 
 }
 
+
+.owl-dots {
+    display: none !important;
+}
+
+#second-slide {
+    position: relative !important;
+}
+
+#second-slide .owl-prev {
+
+    text-align: center;
+    justify-content: center;
+    position: absolute !important;
+    color: rgb(219, 20, 20) !important;
+    font-size: 35px !important;
+    top: -25%;
+    right: 4%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px !important;
+    background-color: #2493e0 !important;
+     !important;
+
+
+}
+
+#second-slide .owl-next {
+
+    text-align: center;
+    position: absolute !important;
+    color: rgb(219, 20, 20) !important;
+    font-size: 35px !important;
+    top: -25%;
+    right: 0%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    line-height: 40px;
+    border-radius: 2px !important;
+    background-color: #2493e0 !important;
+     !important;
+
+
+}
+
+
 /* what the y said end */
 
 .we-offerd {
@@ -604,29 +865,33 @@ body {
     padding-top: 120px;
 }
 
-#dicover {
+/* #dicover {
     position: relative;
-}
+} */
 
-.discover-text {
+.discover-list {
 
     margin: 60px 0 100px 0;
 
 }
 
-.discover-text ul li a {
+.list {
+    columns: 2;
+}
+
+.discover-list ul li a {
     line-height: 2;
     color: #fff;
     font-size: 15px;
 }
 
-.discover-text-1 ul li a {
+/* .discover-text-1 ul li a {
     line-height: 2;
     color: #fff;
     font-size: 15px;
-}
+} */
 
-#dicover {
+/* #dicover {
     position: relative;
 }
 
@@ -635,7 +900,7 @@ body {
     top: 88px;
     right: 23px;
 
-}
+} */
 
 .input-icon {
     position: relative;
