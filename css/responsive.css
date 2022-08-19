@@ -1,0 +1,332 @@
+@media (max-width: 768px) {
+
+    #top-left {
+        text-align: left;
+        font-size: 15px !important;
+    }
+
+    .text-end {
+        text-align: left !important;
+    }
+
+
+    .container-fluid {
+        position: relative;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        display: flex;
+        left: 336px;
+        top: 6px;
+    }
+
+    /* bannr  */
+    .banner {
+        margin-top: 20px;
+    }
+
+    .banner-box {
+        position: relative;
+    }
+
+    .banner-text {
+        position: absolute;
+        left: 1% !important;
+        padding: 0 -36px;
+
+    }
+
+    .banner-text h1 {
+        font-size: 40px !important;
+    }
+
+    .banner-text p {
+        font-size: 14px !important;
+        color: #fff;
+    }
+
+    /* <!-- Hotel-ticket-place start --> */
+
+    .h-t-p {
+        padding: 0 10px;
+        width: 403px;
+        text-align: center;
+    }
+
+    .tab-menu {
+
+
+        /* text-align: center; */
+    }
+
+    .h-t-i-options {
+        display: block;
+        padding: 12px 114px !important;
+        width: 20%;
+        font-size: 20px !important;
+
+        margin-left: 71px !important;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+    .check-in-date {
+        margin-bottom: 20px;
+    }
+
+    #check-in-date-2 {
+
+        margin-top: 0px !important;
+    }
+
+
+    /* <!-- top place to visit start --> */
+    .top-place-visit {
+        position: relative;
+    }
+
+    .t-p-v-text-box {
+        position: relative;
+        padding-left: 30px;
+        padding-right: 20px;
+        height: 100vh;
+    }
+
+    .t-p-v-text-box h2 {
+        left: 8%;
+        /* top: -252%; */
+        position: absolute;
+        font-size: 35px !important;
+
+    }
+
+    .t-p-v-text-box p {
+        position: absolute;
+        top: 5%;
+        font-size: 15px !important;
+        padding-right: 660px;
+
+    }
+
+    .list-item {
+        position: relative;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-top: -13px;
+        width: 458px;
+    }
+
+    .top-place-visit-img-box {
+        position: absolute;
+        top: 14%;
+    }
+
+    .text-center {
+        margin-top: 600px;
+        margin-right: 634px;
+    }
+
+    /* <!-- top place to visit end --> */
+
+    /* <!-- maldeve-asia slider start --> */
+    .maldeve-asia {
+        margin-top: 50px !important;
+    }
+
+    /* .maldeve-asia {
+        position: relative;
+        margin: 100px 0;
+        background-image: url("../img/maldeve-asia-bg-img.png");
+        max-width: 100% !important;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    } */
+    .maldeve-asia-text-box {
+        width: 450px;
+
+    }
+
+    #slider-1 .owl-prev {
+
+        left: 3% !important;
+    }
+
+
+    #slider-1 .owl-next {
+        right: 3% !important;
+    }
+
+    /*   <!-- maldeve-asia slider end --> */
+
+
+
+
+    .t-h-r {
+        margin-top: -75px !important;
+
+    }
+
+    .t-h-r .t-p-v-text-box h2 {
+        font-size: 35px !important;
+        margin-left: -67px !important;
+    }
+
+    /* <!-- hotel polonia start --> */
+
+    .h-polona {
+        margin-top: -800px;
+    }
+
+    .item-box {
+        margin-left: 60px !important;
+    }
+
+    .social-icon-polonia {
+        position: absolute;
+        left: 28%;
+        top: 10%;
+    }
+
+    .share {
+        position: absolute;
+        left: 0%;
+        top: 105%;
+    }
+
+    /* <!-- Top Hotel & Restaurants end --> */
+
+
+
+
+
+    /*  <!-- what they said start --> */
+
+    .what-they-said {
+        margin-top: 100px !important;
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    .allen-miller {
+        /* width: 450px; */
+        /* display: inline; */
+    }
+
+    #second-slide .item {
+
+        width: 350px !important;
+        margin-left: 60px !important;
+    }
+
+    .we-offerd {
+        margin-top: -150px !important;
+    }
+
+    .we-offerd .t-p-v-text-box h2 {
+
+        width: 300px;
+        padding-bottom: 100px !important;
+
+    }
+
+    .we-offerd .t-p-v-text-box p {
+        margin-top: 40px;
+
+    }
+
+    /*     <!-- we offered end -->
+
+
+    <!-- transportation-g-a-d start --> */
+
+    .t-g-a-d {
+        margin-top: -722px !important;
+    }
+
+    .t-g-a-d-box {
+        width: 500px !important;
+    }
+
+    .t-g-a-d-box img {
+        display: block;
+        width: 100%;
+    }
+
+    .t-g-a-d-box a {
+        margin-top: 10px !important;
+    }
+
+    .t-g-a-d-box p {
+        margin-bottom: 50px !important;
+    }
+
+    /*  <!-- transportation-g-a-d end -->
+ */
+
+
+
+    /*  <!-- page summery start --> */
+    .summery {
+        margin-top: 0px !important;
+    }
+
+    .list {
+        columns: 2 !important;
+    }
+
+    .discover-list {
+        margin-right: 678px !important;
+        margin-top: 10px !important;
+    }
+
+    .subscribe {
+        margin-top: -57px !important;
+    }
+
+    .input-icon {
+        margin-top: 0px !important;
+        margin-right: 577px !important;
+    }
+
+    #contact-us {
+        margin-top: 20px !important;
+    }
+
+    #contact-us p {
+        margin-top: 0px !important;
+    }
+
+    #contact-us span {
+        display: block;
+        margin-top: -19px !important;
+    }
+
+    .bottom-social-icon {
+        margin-left: 160px !important;
+        margin-bottom: 30px;
+    }
+
+
+    #bottom-icon {
+        font-size: 25px !important;
+    }
+
+    /*   <!-- page summery end --> */
+
+
+    /*  <!-- footer start --> */
+    .footer {
+        padding: 0px 30px;
+    }
+
+}
+
+
+
+
+
+
+}

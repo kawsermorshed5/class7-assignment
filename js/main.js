@@ -3,6 +3,9 @@ $(document).ready(function () {
     $('.ticket-item').hide();
     $('.place-item').hide();
 
+    // $('#hotel span').addclass('line');
+
+
 
     // for hotel
     $('#hotel').click(function () {

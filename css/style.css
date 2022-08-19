@@ -466,7 +466,7 @@ nav ul li:hover ul {
 
 .list-content {
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     left: 40px;
     color: #fff;
     opacity: 0;
@@ -669,7 +669,7 @@ nav ul li:hover ul {
 }
 
 .fa-share-from-square {
-    background-color: rgba(212, 201, 201, 0.658) !important;
+    background-color: rgba(212, 201, 201, 0.758) !important;
     height: 50px !important;
     width: 50px !important;
     color: #fff !important;
@@ -748,6 +748,13 @@ nav ul li:hover ul {
     position: relative;
 }
 
+#second-slide .item {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #bcc6cf !important;
+    width: 330px;
+}
+
 .slide-box h2 {
 
     font-size: 46px;
@@ -757,9 +764,11 @@ nav ul li:hover ul {
 }
 
 .allen-miller {
-    background-color: #0e477d;
+    background-color: #164877;
 
-    padding: 0 33px;
+    padding: 0 23px !important;
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .allen-miller p {
@@ -807,8 +816,6 @@ nav ul li:hover ul {
     border-radius: 2px !important;
     background-color: #2493e0 !important;
      !important;
-
-
 }
 
 #second-slide .owl-next {
@@ -870,8 +877,9 @@ nav ul li:hover ul {
 } */
 
 .discover-list {
-
+    position: relative;
     margin: 60px 0 100px 0;
+
 
 }
 
@@ -879,9 +887,11 @@ nav ul li:hover ul {
     columns: 2;
 }
 
+
+
 .discover-list ul li a {
     line-height: 2;
-    color: #fff;
+    color: white;
     font-size: 15px;
 }
 
